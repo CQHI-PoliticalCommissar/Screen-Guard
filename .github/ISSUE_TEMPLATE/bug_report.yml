@@ -1,0 +1,60 @@
+name: Bug 报告
+description: 报告可复现的问题
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈。请尽量提供可复现步骤与日志；安全漏洞请勿公开提交，见 SECURITY.md。
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 问题描述
+      description: 实际发生了什么？期望是什么？
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      placeholder: |
+        1. 打开…
+        2. 点击…
+        3. 看到…
+    validations:
+      required: true
+  - type: dropdown
+    id: environment
+    attributes:
+      label: 运行环境
+      options:
+        - HarmonyOS 模拟器
+        - HarmonyOS 真机
+        - 其他（请在补充说明中写明）
+    validations:
+      required: true
+  - type: input
+    id: os-version
+    attributes:
+      label: 系统 / 设备版本
+      placeholder: 例如 HarmonyOS 6.0 / 模拟器 API 12
+  - type: textarea
+    id: logs
+    attributes:
+      label: 日志与截图
+      description: 相关 hilog（请去掉个人信息）、截图或录屏
+      render: text
+  - type: textarea
+    id: extra
+    attributes:
+      label: 补充说明
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 确认
+      options:
+        - label: 我已搜索过现有 Issue，未发现重复
+          required: true
+        - label: 我确认日志/截图中不含个人隐私信息
+          required: true
