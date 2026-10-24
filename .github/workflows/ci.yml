@@ -1,0 +1,25 @@
+name: Source checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  source-check:
+    name: 编码 / JSON / 许可证检查
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Run source checks
+        run: node scripts/check-source.mjs
+
+# 说明：完整的 HarmonyOS 构建与 LocalUnit 需要 DevEco Studio SDK（含签名/许可约束），
+# 不适合在 GitHub 托管 runner 上直接跑；请在本地执行 README 中的构建与测试命令，并在 PR 中附结果。
