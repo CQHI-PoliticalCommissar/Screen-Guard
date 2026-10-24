@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 安全漏洞（私密报告）
+    url: https://github.com/OWNER/REPO/security/advisories/new
+    about: 请勿公开披露安全问题；请使用 GitHub 私密安全报告
+  - name: 使用与构建问题
+    url: https://github.com/OWNER/REPO/blob/main/README.md
+    about: 先阅读 README 的构建、测试与权限说明
