@@ -1,0 +1,14 @@
+# 统一换行，避免 Windows 提交把全仓改成 CRLF
+* text=auto eol=lf
+
+# GitHub 语言统计：.ets 本质是 TypeScript 方言
+*.ets linguist-language=TypeScript
+*.ets linguist-detectable=true
+
+# 二进制资源
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.hap binary
+*.app binary
