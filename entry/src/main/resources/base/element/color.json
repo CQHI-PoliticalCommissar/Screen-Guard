@@ -1,0 +1,52 @@
+{
+  "color": [
+    {
+      "name": "start_window_background",
+      "value": "#EFF3F8"
+    },
+    {
+      "name": "primary_background",
+      "value": "#EFF3F8"
+    },
+    {
+      "name": "card_background",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "status_normal",
+      "value": "#34C759"
+    },
+    {
+      "name": "status_warning",
+      "value": "#FF9500"
+    },
+    {
+      "name": "status_emergency",
+      "value": "#FF3B30"
+    },
+    {
+      "name": "text_primary",
+      "value": "#1C1C1E"
+    },
+    {
+      "name": "text_secondary",
+      "value": "#636366"
+    },
+    {
+      "name": "card_border",
+      "value": "#D1D1D6"
+    },
+    {
+      "name": "progress_track",
+      "value": "#F2F2F7"
+    },
+    {
+      "name": "streak_bg_active",
+      "value": "#34C75914"
+    },
+    {
+      "name": "streak_bg_inactive",
+      "value": "#F2F2F780"
+    }
+  ]
+}

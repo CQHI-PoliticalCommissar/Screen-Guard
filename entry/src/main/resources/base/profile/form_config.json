@@ -1,0 +1,19 @@
+{
+  "forms": [
+    {
+      "name": "HealthCard",
+      "displayName": "$string:form_display_name",
+      "description": "$string:form_desc",
+      "uiSyntax": "arkts",
+      "colorMode": "auto",
+      "isDefault": true,
+      "updateEnabled": true,
+      "updateDuration": 1,
+      "defaultDimension": "2*2",
+      "supportDimensions": [
+        "2*2"
+      ],
+      "src": "ets/widget/pages/HealthCard.card.ets"
+    }
+  ]
+}

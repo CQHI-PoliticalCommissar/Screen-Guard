@@ -1,0 +1,32 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "萤光守护 - 温柔守护您的数字健康生活"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "萤光守护主入口"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "萤光守护"
+    },
+    {
+      "name": "permission_health_data_reason",
+      "value": "用于读取睡眠等健康数据以生成个性化建议"
+    },
+    {
+      "name": "permission_keep_background_running_reason",
+      "value": "用于在后台持续进行健康状态监测"
+    },
+    {
+      "name": "form_display_name",
+      "value": "萤光卡片"
+    },
+    {
+      "name": "form_desc",
+      "value": "一键查看用眼状态与剩余可用时长"
+    }
+  ]
+}
