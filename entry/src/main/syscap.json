@@ -1,0 +1,10 @@
+{
+  "syscap": [
+    "SystemCapability.Sensors.Sensor",
+    "SystemCapability.ResourceSchedule.BackgroundTaskManager.ContinuousTask",
+    "SystemCapability.Notification.Notification",
+    "SystemCapability.Notification.ReminderAgent",
+    "SystemCapability.Health.HealthStore",
+    "SystemCapability.UIDesign.HDSComponent.Core"
+  ]
+}

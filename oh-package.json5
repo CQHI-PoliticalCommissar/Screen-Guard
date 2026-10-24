@@ -1,0 +1,12 @@
+{
+  "modelVersion": "6.0.2",
+  "description": "萤光守护 - 数字健康守护应用，帮助管理屏幕使用时长、睡眠与专注模式。",
+  "author": "CyberSelfDiscipline contributors",
+  "license": "GPL-3.0-only",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@ohos/hypium": "1.0.25",
+    "@ohos/hamock": "1.0.0"
+  }
+}

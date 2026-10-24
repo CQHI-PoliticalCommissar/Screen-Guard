@@ -1,0 +1,10 @@
+{
+  "name": "entry",
+  "version": "1.0.0",
+  "description": "萤光守护主模块：使用统计、睡眠、专注模式、提醒、成就与健康卡片。",
+  "main": "",
+  "author": "CyberSelfDiscipline contributors",
+  "license": "GPL-3.0-only",
+  "dependencies": {}
+}
+
