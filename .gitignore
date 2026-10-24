@@ -1,0 +1,44 @@
+/node_modules
+/oh_modules
+/local.properties
+/.idea
+**/build
+/.hvigor
+.cxx
+/.clangd
+/.clang-format
+/.clang-tidy
+**/.test
+/.appanalyzer
+
+# DevEco Testing / DevEco 生成的本地报告与产物（含设备 UI 坐标、时间戳等本地数据）
+Task-*.html
+/.hvigor/outputs/logs/
+/.hvigor/report/
+/.hvigor/outputs/records/
+*.log
+
+# 签名材料：切勿提交（当前 signingConfigs 为空，若日后配置签名务必保持忽略）
+*.p12
+*.p7b
+*.cer
+*.keystore
+*.jks
+signing-config.json5
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 构建产物 / 归档（不应入库）
+*.hap
+*.app
+*.zip
+
+# 本地工具状态
+.crush/
+.opencode/
+.vscode/
+
+# DevEco 预览缓存
+**/.preview/
